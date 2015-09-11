@@ -19,8 +19,16 @@ img {
 h3 {
   margin: 0 0 1em 0;
 }
-
-
+.about-about {
+  text-align: center;
+  text-decoration: underline;
+}
+.portfolio-caps {
+  height: 350px;
+}
+.port {
+  text-align: center;
+}
 
 /**********************************
 HEADING
@@ -187,13 +195,13 @@ body {
 
 /* green header */
 header {
-  background: #6ab47b;
+  background: RGBA(65, 84, 129, 1);
   border-color: #599a68;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: RGBA(129, 170, 255, 1);
 }
 
 /* logo text */
@@ -203,7 +211,7 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: RGBA(65, 84, 129, 1);
 }
 
 /* nav link */
@@ -213,5 +221,5 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: RGBA(137, 219, 230, 1);
 }
